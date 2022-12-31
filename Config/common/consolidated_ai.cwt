@@ -253,13 +253,13 @@ ai_template = {
 			match_value = float
 
 			regiments = {
-				## cardinality = 1..25
-				<unit> = int[0..24]
+				## cardinality = 1..24
+				<unit> = int[1.14]
 			}
 			## cardinality = 0..1
 			support = {
-				## cardinality = 0..5
-				<unit> = int[0..4]
+				## cardinality = 1..10
+				<unit> = int[1.10]
 			}
 		}
 		allowed_types = {
